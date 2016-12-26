@@ -45,7 +45,7 @@ For testing your setup you can download this repository and import to Idea.
 
 Clone repository.
 ```
-$ git clone git@github.com:dvoraka/hstest.git
+$ git clone https://github.com/dvoraka/hstest.git
 Cloning into 'hstest'...
 remote: Counting objects: 36, done.
 remote: Compressing objects: 100% (21/21), done.
