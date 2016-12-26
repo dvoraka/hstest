@@ -29,3 +29,16 @@ This plugin depends mainly on Stack and Intero. It can create new Stack projects
 template hspec) and import existing Stack projects.
 
 http://rikvdkleij.github.io/intellij-haskell/
+
+## How to start development
+
+### Stack
+You need to install Stack first. [Documentation](https://docs.haskellstack.org/en/stable/README/)
+
+### IntelliJ-Haskell
+Then you need IDEA plugin. If you already use any plugin, uninstall it. For the latest
+instructions see project
+[readme](https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md).
+
+### Download test project
+For testing your setup you can download this repository and import to Idea.
