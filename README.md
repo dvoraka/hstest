@@ -17,6 +17,11 @@ both new and experienced.
 
 https://docs.haskellstack.org/en/stable/README/
 
+### Intero
+Complete interactive development program for Haskell.
+
+https://github.com/commercialhaskell/intero
+
 ### IntelliJ-Haskell
 Really good IntelliJ plugin for Haskell.
 
