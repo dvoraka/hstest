@@ -1,4 +1,9 @@
 module Main where
 
+import Input
+
+
 main :: IO ()
-main = putStrLn "Hello"
+main = do
+  name <- prompt "What is your name?"
+  putStrLn $ "Hello, " ++ name ++ "!"

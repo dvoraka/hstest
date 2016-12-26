@@ -36,7 +36,7 @@ http://rikvdkleij.github.io/intellij-haskell/
 You need to install Stack first. [Documentation](https://docs.haskellstack.org/en/stable/README/)
 
 ### IntelliJ-Haskell
-Then you need IDEA plugin. If you already use any plugin, uninstall it. For the latest
+Then you need IDEA plugin. If you already use any Haskell plugin, uninstall it. For the latest
 instructions see project
 [readme](https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md).
 
