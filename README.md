@@ -124,5 +124,6 @@ intero-0.1.20: download
 intero-0.1.20: configure
 intero-0.1.20: build
 intero-0.1.20: copy/register
+$
 ```
-in the project directory must be successul to correct function of the plugin.
+in the project directory must be successul the to correct function of the plugin.
