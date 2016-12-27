@@ -63,7 +63,7 @@ $ cd hstest
 $
 ```
 
-Run ```stack setup``` command.
+Run ```stack setup``` command. The output can be different if you run it right after fresh **Stack** installation.
 ```
 $ stack setup
 stack will use a sandboxed GHC it installed
@@ -103,3 +103,26 @@ Hello, John!
 $
 ```
 If everything runs, you have Stack prepared.
+
+### Intero testing
+
+You need **intero** for a development so command
+```
+$ stack build intero
+Using latest snapshot resolver: lts-7.14
+Writing implicit global project config file to: /home/user/.stack/global-project/stack.yaml
+Note: You can change the snapshot via the resolver field there.
+ghc-paths-0.1.0.9: download
+ghc-paths-0.1.0.9: configure
+syb-0.6: download
+ghc-paths-0.1.0.9: build
+syb-0.6: configure
+syb-0.6: build
+ghc-paths-0.1.0.9: copy/register
+syb-0.6: copy/register
+intero-0.1.20: download
+intero-0.1.20: configure
+intero-0.1.20: build
+intero-0.1.20: copy/register
+```
+in the project directory must be successul to correct function of the plugin.
