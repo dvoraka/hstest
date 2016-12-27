@@ -1,6 +1,6 @@
 # Haskell test
 
-Haskell project for testing development tools.
+Haskell project for Haskell development tools testing.
 
 ## Tools
 
@@ -41,7 +41,7 @@ instructions see project
 [readme](https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md).
 
 ### Download test project
-For testing your setup you can download this repository and import to Idea.
+For testing your setup you can download this repository and import to IDEA.
 
 Clone repository.
 ```
@@ -102,11 +102,11 @@ John
 Hello, John!
 $
 ```
-If everything runs, you have Stack prepared.
+If everything runs, you have **Stack** prepared.
 
 ### Intero testing
 
-You need **intero** for a development so command
+You need **Intero** for a development so command:
 ```
 $ stack build intero
 Using latest snapshot resolver: lts-7.14
@@ -126,4 +126,4 @@ intero-0.1.20: build
 intero-0.1.20: copy/register
 $
 ```
-in the project directory must be successul the to correct function of the plugin.
+in the project directory must be successul to the correct function of the plugin.
