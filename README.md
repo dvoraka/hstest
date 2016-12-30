@@ -96,7 +96,7 @@ $
 
 Run project.
 ```
-$ stack exec hstest
+$ stack exec hstest-exe
 What is your name?
 John
 Hello, John!
