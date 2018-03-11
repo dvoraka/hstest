@@ -128,4 +128,4 @@ intero-0.1.20: build
 intero-0.1.20: copy/register
 $
 ```
-in the project directory must be successul to the correct function of the plugin.
+in the project directory must be successful to the correct function of the plugin.
