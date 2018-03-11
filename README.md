@@ -31,6 +31,8 @@ template hspec) and import existing Stack projects.
 http://rikvdkleij.github.io/intellij-haskell/
 
 ## How to start development
+You may need some development libraries for building tools. So check the error output
+and install necessary dev libraries.
 
 ### Stack
 You need to install Stack first. [Documentation](https://docs.haskellstack.org/en/stable/README/)
