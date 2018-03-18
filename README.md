@@ -108,6 +108,26 @@ Copied executables to /home/user/.local/bin:
 
 https://github.com/commercialhaskell/hindent
 
+### Stylish-haskell
+A simple Haskell code prettifier. The goal is not to format all of the code in a file, since I find those kind of tools often "get in the way". However, manually cleaning up import statements etc. gets tedious very quickly.
+
+This tool tries to help where necessary without getting in the way.
+
+Install:
+```
+$ stack install stylish-haskell
+...
+stylish-haskell-0.6.1.0: configure
+stylish-haskell-0.6.1.0: build
+stylish-haskell-0.6.1.0: copy/register
+Completed 14 action(s).
+
+Copied executables to /home/user/.local/bin:
+- stylish-haskell
+```
+
+https://github.com/jaspervdj/stylish-haskell
+
 ### Intero
 Complete interactive development program for Haskell.
 
