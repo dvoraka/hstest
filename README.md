@@ -86,7 +86,8 @@ So to manage your library:
    Just try to add a new version in the `stack.yaml` file in the `extra-deps` section.
 
 That was a really fast introduction on how to start to code in Haskell using `stack`.
-If you want to go further, we highly recommend you to read the [`stack` guide](GUIDE.md).
+If you want to go further, we highly recommend you to read the
+[`stack` guide](https://docs.haskellstack.org/en/stable/GUIDE).
 
 ### Hindent
 Haskell pretty printer.
