@@ -88,6 +88,25 @@ So to manage your library:
 That was a really fast introduction on how to start to code in Haskell using `stack`.
 If you want to go further, we highly recommend you to read the [`stack` guide](GUIDE.md).
 
+### Hindent
+Haskell pretty printer.
+
+Install:
+```
+$ stack install hindent
+...
+hindent-4.6.4: configure
+hindent-4.6.4: build
+hindent-4.6.4: copy/register
+Completed 32 action(s).
+
+Copied executables to /home/user/.local/bin:
+- hindent
+- hindent-generate-tests
+```
+
+https://github.com/commercialhaskell/hindent
+
 ### Intero
 Complete interactive development program for Haskell.
 
