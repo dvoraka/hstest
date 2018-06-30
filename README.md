@@ -3,6 +3,9 @@
 Haskell project for Haskell development tools testing.
 
 ## Tools
+You may need some development libraries in the system for tool compilations.
+It is a good idea try to install all tools before starting IDEA plugin.
+When all builds are successful then you are ready to try the plugin.
 
 ### Stack
 Stack is a cross-platform program for developing Haskell projects. It is aimed at Haskellers
@@ -20,7 +23,6 @@ https://docs.haskellstack.org/en/stable/README/
 #### Quick Start Guide
 
 ##### Start your new project:
-
 ```bash
 stack new my-project
 cd my-project
@@ -131,7 +133,36 @@ https://github.com/jaspervdj/stylish-haskell
 ### Intero
 Complete interactive development program for Haskell.
 
+Install:
+```
+$ stack install intero
+Using latest snapshot resolver: lts-7.14
+Writing implicit global project config file to: /home/user/.stack/global-project/stack.yaml
+Note: You can change the snapshot via the resolver field there.
+ghc-paths-0.1.0.9: download
+ghc-paths-0.1.0.9: configure
+...
+
+Copied executables to /home/user/.local/bin:
+- intero
+```
+
 https://github.com/commercialhaskell/intero
+
+### Hoogle
+Hoogle is a Haskell API search engine, which allows you to search many standard Haskell libraries 
+by either function name, or by approximate type signature.
+
+Install:
+```
+$ stack install hoogle
+...
+
+Copied executables to /home/user/.local/bin:
+- hoogle
+```
+
+https://www.haskell.org/hoogle/
 
 ### IntelliJ-Haskell
 Really good IntelliJ plugin for Haskell.
@@ -142,7 +173,7 @@ template hspec) and import existing Stack projects.
 http://rikvdkleij.github.io/intellij-haskell/
 
 ## How to start development
-You may need some development libraries for building tools. So check the error output
+You may need some development libraries for building all tools. So check the build error output
 and install necessary dev libraries.
 
 ### Stack
@@ -216,27 +247,3 @@ Hello, John!
 $
 ```
 If everything runs, you have **Stack** prepared.
-
-### Intero testing
-
-You need **Intero** for a development so command:
-```
-$ stack build intero
-Using latest snapshot resolver: lts-7.14
-Writing implicit global project config file to: /home/user/.stack/global-project/stack.yaml
-Note: You can change the snapshot via the resolver field there.
-ghc-paths-0.1.0.9: download
-ghc-paths-0.1.0.9: configure
-syb-0.6: download
-ghc-paths-0.1.0.9: build
-syb-0.6: configure
-syb-0.6: build
-ghc-paths-0.1.0.9: copy/register
-syb-0.6: copy/register
-intero-0.1.20: download
-intero-0.1.20: configure
-intero-0.1.20: build
-intero-0.1.20: copy/register
-$
-```
-in the project directory must be successful to the correct function of the plugin.
