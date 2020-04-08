@@ -1,6 +1,11 @@
 # Haskell test
 
-Haskell project for Haskell development tools testing.
+Haskell project for Haskell development tool testing.
+
+---
+ * [Tools installation](#tools)
+ * [How to start development](#how-to-start-development)
+---
 
 ## Tools
 You may need some development libraries in the system for tool compilations.
