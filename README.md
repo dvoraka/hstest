@@ -25,6 +25,10 @@ https://docs.haskellstack.org/en/stable/README/
 
 #### Quick Start Guide
 
+Stack configuration:
+
+https://docs.haskellstack.org/en/stable/yaml_configuration/
+
 ##### Start your new project:
 ```bash
 stack new my-project
@@ -96,6 +100,11 @@ If you want to go further, we highly recommend you to read the
 
 ### Hindent
 Haskell pretty printer.
+
+Currently (8 Apr 2020) Hindent looks unmaintained and it's not possible to build it with newer GHC. Build
+with older version works:
+
+`stack --resolver lts-14.22 install hindent`
 
 Install:
 ```
