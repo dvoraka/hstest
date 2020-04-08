@@ -15,6 +15,9 @@ When all builds are successful then you are ready to try the plugin.
 **Additional packages** (Debian)
  * libgmp-dev
  * libtinfo-dev
+ 
+ Some common info:
+  * https://www.haskell.org/downloads/
 
 ### Stack
 Stack is a cross-platform program for developing Haskell projects. It is aimed at Haskellers
@@ -270,3 +273,27 @@ Hello, John!
 $
 ```
 If everything runs, you have **Stack** prepared.
+
+### Development
+
+You can directly play with your own code without building any new project in ```Playground.hs``` file.
+Edit the file and then run:
+```
+$ stack ghci
+Using main module: 1. Package `hstest' component hstest:exe:hstest-exe with main-is file: /home/user/hstest/app/Main.hs
+hstest> configure (lib + exe)
+Configuring hstest-0.1.0.0...
+hstest> initial-build-steps (lib + exe)
+The following GHC options are incompatible with GHCi and have not been passed to it: -threaded
+Configuring GHCi with the following packages: hstest
+GHCi, version 8.0.1: http://www.haskell.org/ghc/  :? for help
+[1 of 4] Compiling Playground       ( /home/user/hstest/src/Playground.hs, interpreted ) [flags changed]
+[2 of 4] Compiling Input            ( /home/user/hstest/src/Input.hs, interpreted ) [flags changed]
+[3 of 4] Compiling Main             ( /home/user/hstest/app/Main.hs, interpreted ) [Input changed]
+[4 of 4] Compiling Data.String.Strip ( /home/user/hstest/src/Data/String/Strip.hs, interpreted ) [flags changed]
+Ok, modules loaded: Data.String.Strip, Input, Playground, Main.
+Loaded GHCi configuration from /tmp/haskell-stack-ghci/a3568cd9/ghci-script
+*Main Data.String.Strip Input Playground>
+```
+
+And your code is accessible in the interactive environment.
