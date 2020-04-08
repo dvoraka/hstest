@@ -18,6 +18,8 @@ When all builds are successful you are ready to try the plugin.
  
  Some common info:
   * https://www.haskell.org/downloads/
+  * https://www.stackage.org/
+  * https://www.haskell.org/platform/
 
 ### Stack
 Stack is a cross-platform program for developing Haskell projects. It is aimed at Haskellers
