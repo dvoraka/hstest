@@ -151,7 +151,7 @@ https://github.com/jaspervdj/stylish-haskell
 ### Intero
 Complete interactive development program for Haskell.
 
-Current (8 Apr 2020) version needs GHC version 8.6.5 at max. You can use the command if necessary:
+Current (8 Apr 2020) version needs GHC version 8.6.5 at max. You can use the command below if necessary:
 
 `stack --resolver lts-14.27 install intero`
 
@@ -229,7 +229,8 @@ $ cd hstest
 $
 ```
 
-Run ```stack setup``` command. The output can be different if you run it right after fresh **Stack** installation.
+Run ```stack setup``` command. The output can be different when you run it
+right after the fresh **Stack** installation.
 ```
 $ stack setup
 stack will use a sandboxed GHC it installed
