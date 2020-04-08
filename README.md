@@ -9,6 +9,7 @@ When all builds are successful then you are ready to try the plugin.
 
 **Additional packages** (Debian)
  * libgmp-dev
+ * libtinfo-dev
 
 ### Stack
 Stack is a cross-platform program for developing Haskell projects. It is aimed at Haskellers
@@ -144,6 +145,10 @@ https://github.com/jaspervdj/stylish-haskell
 
 ### Intero
 Complete interactive development program for Haskell.
+
+Current (8 Apr 2020) version needs GHC version 8.6.5 at max. You can use the command if necessary:
+
+`stack --resolver lts-14.27 install intero`
 
 Install:
 ```
