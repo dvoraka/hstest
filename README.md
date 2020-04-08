@@ -7,6 +7,9 @@ You may need some development libraries in the system for tool compilations.
 It is a good idea try to install all tools before starting IDEA plugin.
 When all builds are successful then you are ready to try the plugin.
 
+**Additional packages** (Debian)
+ * libgmp-dev
+
 ### Stack
 Stack is a cross-platform program for developing Haskell projects. It is aimed at Haskellers
 both new and experienced.
