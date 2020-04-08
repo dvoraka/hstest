@@ -3,14 +3,14 @@
 Haskell project for Haskell development tool testing.
 
 ---
- * [Tools installation](#tools)
+ * [Tool installations](#tools)
  * [How to start development](#how-to-start-development)
 ---
 
 ## Tools
 You may need some development libraries in the system for tool compilations.
-It is a good idea try to install all tools before starting IDEA plugin.
-When all builds are successful then you are ready to try the plugin.
+It is a good idea to try to install all tools before starting IDEA plugin.
+When all builds are successful you are ready to try the plugin.
 
 **Additional packages** (Debian)
  * libgmp-dev
